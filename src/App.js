@@ -36,7 +36,7 @@ function App() {
 
   const handleClick = (direction) => {
     let newStep = currentStep;
-    direction === "next" ? newStep++ : newStep--;
+    direction === "siguiente" ? newStep++ : newStep--;
     //check if pasos is within bonds
     newStep > 0 && newStep <= steps.length && setCurrentStep(newStep);
   };
