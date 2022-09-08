@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/encuesta-social-media/static/css/main.5dd25cc7.css",
+    "main.js": "/encuesta-social-media/static/js/main.beb17384.js",
+    "index.html": "/encuesta-social-media/index.html",
+    "main.5dd25cc7.css.map": "/encuesta-social-media/static/css/main.5dd25cc7.css.map",
+    "main.beb17384.js.map": "/encuesta-social-media/static/js/main.beb17384.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5dd25cc7.css",
+    "static/js/main.beb17384.js"
+  ]
+}
