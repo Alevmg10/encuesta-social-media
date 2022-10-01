@@ -23,9 +23,9 @@ export default function RedSocial() {
             <input
                 onChange={handleChange}
                 value={userData["opcionA"] || ""}
-                name="opcionA"
-                type="checkbox"
-                className="bg-green-700"
+                name="redsocial"
+                type="radio"
+                className="accent-green-600"
                 />
         </div>
       
@@ -36,9 +36,9 @@ export default function RedSocial() {
             <input
                 onChange={handleChange}
                 value={userData["opcionB"] || ""}
-                name="opcionB"
-                type="checkbox"
-                className=""
+                name="redsocial"
+                type="radio"
+                className="accent-green-600"
             />
         </div>
 
@@ -49,9 +49,9 @@ export default function RedSocial() {
             <input
                 onChange={handleChange}
                 value={userData["opcionC"] || ""}
-                name="opcionC"
-                type="checkbox"
-                className=""
+                name="redsocial"
+                type="radio"
+                className="accent-green-600"
             />
         </div>
 
@@ -62,9 +62,9 @@ export default function RedSocial() {
             <input
                 onChange={handleChange}
                 value={userData["opcionD"] || ""}
-                name="opcionD"
-                type="checkbox"
-                className=""
+                name="redsocial"
+                type="radio"
+                className="accent-green-600"
             />
         </div>
 
@@ -75,9 +75,9 @@ export default function RedSocial() {
             <input
                 onChange={handleChange}
                 value={userData["opcionE"] || ""}
-                name="opcionE"
-                type="checkbox"
-                className=""
+                name="redsocial"
+                type="radio"
+                className="accent-green-600"
             />
         </div>
     </form>

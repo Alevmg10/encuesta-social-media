@@ -27,9 +27,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionA"] || ""}
-                        name="opcionA"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="facebook"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -37,9 +37,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionB"] || ""}
-                        name="opcionB"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="facebook"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -47,9 +47,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionC"] || ""}
-                        name="opcionC"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="facebook"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -57,9 +57,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionD"] || ""}
-                        name="opcionD"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="facebook"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
             </div>
@@ -75,9 +75,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionA"] || ""}
-                        name="opcionA"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="instagram"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -85,9 +85,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionB"] || ""}
-                        name="opcionB"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="instagram"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -95,9 +95,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionC"] || ""}
-                        name="opcionC"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="instagram"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -105,9 +105,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionD"] || ""}
-                        name="opcionD"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="instagram"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
             </div>
@@ -123,9 +123,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionA"] || ""}
-                        name="opcionA"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="tiktok"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -133,9 +133,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionB"] || ""}
-                        name="opcionB"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="tiktok"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -143,9 +143,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionC"] || ""}
-                        name="opcionC"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="tiktok"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -153,9 +153,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionD"] || ""}
-                        name="opcionD"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="tiktok"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
             </div>
@@ -170,9 +170,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionA"] || ""}
-                        name="opcionA"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="twitter"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -180,9 +180,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionB"] || ""}
-                        name="opcionB"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="twitter"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -190,9 +190,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionC"] || ""}
-                        name="opcionC"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="twitter"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -200,9 +200,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionD"] || ""}
-                        name="opcionD"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="twitter"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
             </div>
@@ -217,9 +217,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionA"] || ""}
-                        name="opcionA"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="whatsapp"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -227,9 +227,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionB"] || ""}
-                        name="opcionB"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="whatsapp"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -237,9 +237,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionC"] || ""}
-                        name="opcionC"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="whatsapp"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
                 <label className='flex flex-row-reverse justify-end items-center font-bold text-gray-500 text-xs uppercase ml-3'>
@@ -247,9 +247,9 @@ export default function TiempoRedSocial() {
                     <input
                         onChange={handleChange}
                         value={userData["opcionD"] || ""}
-                        name="opcionD"
-                        type="checkbox"
-                        className="bg-green-700 mr-2"
+                        name="whatsapp"
+                        type="radio"
+                        className="accent-green-600 mr-2"
                         />
                 </label>
             </div>

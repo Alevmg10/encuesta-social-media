@@ -3,8 +3,8 @@ import {useStepperContext} from '../contexts/StepperContext';
 
 
 export default function Edad() {
+    
     const { userData, setUserData } = useStepperContext();
-
     const handleChange = (e) => {
         const { name, value } = e.target;
         setUserData({ ...userData, [name]: value });
@@ -22,9 +22,9 @@ export default function Edad() {
             <input
                 onChange={handleChange}
                 value={userData["opcionA"] || ""}
-                name="opcionA"
-                type="checkbox"
-                className="bg-green-700"
+                name="edad"
+                type="radio"
+                className="accent-green-600"
                 />
         </div>
       
@@ -35,9 +35,9 @@ export default function Edad() {
             <input
                 onChange={handleChange}
                 value={userData["opcionB"] || ""}
-                name="opcionB"
-                type="checkbox"
-                className=""
+                name="edad"
+                type="radio"
+                className="accent-green-600"
             />
         </div>
 
@@ -48,9 +48,9 @@ export default function Edad() {
             <input
                 onChange={handleChange}
                 value={userData["opcionC"] || ""}
-                name="opcionC"
-                type="checkbox"
-                className=""
+                name="edad"
+                type="radio"
+                className="accent-green-600"
             />
         </div>
 
@@ -61,9 +61,9 @@ export default function Edad() {
             <input
                 onChange={handleChange}
                 value={userData["opcionD"] || ""}
-                name="opcionD"
-                type="checkbox"
-                className=""
+                name="edad"
+                type="radio"
+                className="accent-green-600"
             />
         </div>
     </form>

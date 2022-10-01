@@ -1,10 +1,13 @@
 import React from 'react';
+import {useForm} from 'react-hook-form';
 import {useStepperContext} from '../contexts/StepperContext';
 
-export default function Details() {
+
+export default function Genero() {
+
+  const {register, handleSubmit} = useForm();
 
   const { userData, setUserData } = useStepperContext();
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setUserData({ ...userData, [name]: value });
@@ -15,45 +18,44 @@ export default function Details() {
     <h1 className='text-center font-bold text-gray-700'>¿Cual es su sexo?</h1>
 
     <form className="flex flex-col space-y-6 mt-10">
-      
-      <div className="flex flex-row-reverse items-center justify-end">
+      <label className="container flex flex-row-reverse items-center justify-end">
         <h6 className="font-bold text-gray-500 text-xs uppercase ml-3">
           Masculino
         </h6>
-        <input
-              onChange={handleChange}
-              value={userData["masculino"] || ""}
-              name="masculino"
-              type="checkbox"
-              className="bg-green-700"
-            />
-      </div>
+        <input 
+            onChange={handleChange}
+            value={userData["masculino"]}
+            name="genero"
+            type="radio"
+            className="accent-green-600"
+          />
+      </label>
       
-      <div className="flex flex-row-reverse items-center justify-end">
+      <label className="flex flex-row-reverse items-center justify-end">
         <h6 className="font-bold  text-gray-500 text-xs uppercase ml-3">
           Femenino
         </h6>
         <input
             onChange={handleChange}
-            value={userData["femenino"] || ""}
-            name="femenino"
-            type="checkbox"
-            className=""
+            value={userData["femenino"]}
+            name="genero"
+            type="radio"
+            className="accent-green-600"
           />
-      </div>
+      </label>
 
-      <div className="flex flex-row-reverse items-center justify-end">
+      <label className="flex flex-row-reverse items-center justify-end">
         <h6 className="font-bold  text-gray-500 text-xs uppercase ml-3">
           No Binario
         </h6>
         <input
             onChange={handleChange}
-            value={userData["noBinario"] || ""}
-            name="noBinario"
-            type="checkbox"
-            className=""
+            value={userData["noBinario"]}
+            name="genero"
+            type="radio"
+            className="accent-green-600"
           />
-      </div>
+      </label>
     </form>
   </>
   );
